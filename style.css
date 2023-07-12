@@ -63,14 +63,14 @@ body{
    .input .fa-eye{
       position: absolute;
       top: 4px;
-      left: 83%;
+      left: 81%;
       z-index: 2;
    }
 
    .input .fa-eye-slash{
       position: absolute;
       top: 15px;
-      left: 90%;
+      left: 88%;
       z-index: 2;
       display: none;
    }
