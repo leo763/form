@@ -22,7 +22,7 @@ body{
   .cover{
       width: 350px;
       margin: 50px auto 10px;
-      padding: 10px;
+      padding: 10px 20px;
       display: grid;
       position: relative;
       background-color: #ffffff;
@@ -85,6 +85,7 @@ body{
       font-size: 17px;
       transition: .2s;
       margin-top: 20px;
+      margin-bottom: 50px;
    }
 
    .btn:hover{
