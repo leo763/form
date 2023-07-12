@@ -47,20 +47,6 @@
       </form>
     </div>
 
-    <script>
-      var password = document.getElementById("password");
-
-      document.getElementById("seen").addEventListener("click", () => {
-        document.getElementById("password").type = "text";
-        document.getElementById("seen").style.display = "none";
-        document.getElementById("unseen").style.display = "block";
-      });
-
-      document.getElementById("unseen").addEventListener("click", () => {
-        document.getElementById("password").type = "password";
-        document.getElementById("seen").style.display = "block";
-        document.getElementById("unseen").style.display = "none";
-      });
-    </script>
+    <script src="index.js"></script>
   </body>
 </html>
