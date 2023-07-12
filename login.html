@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/a47d6090dc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="cover">
+      <h1>Log In</h1>
+
+      <form action="" method="post">
+        <div class="input">
+          <input
+            id="email"
+            class="inp"
+            type="email"
+            placeholder="Email"
+            required
+          />
+          <br />
+        </div>
+
+        <div class="input">
+          <input
+            id="password"
+            class="inp"
+            type="password"
+            placeholder="password"
+            required
+          />
+          <i class="fa fa-eye" id="seen"></i>
+          <i class="fa fa-eye-slash" id="unseen"></i>
+          <br />
+        </div>
+
+        <div class="link">
+          <button class="btn">Log In</button>
+          <a href="sign.html">Create an account</a>
+        </div>
+      </form>
+    </div>
+
+    <script>
+      var password = document.getElementById("password");
+
+      document.getElementById("seen").addEventListener("click", () => {
+        document.getElementById("password").type = "text";
+        document.getElementById("seen").style.display = "none";
+        document.getElementById("unseen").style.display = "block";
+      });
+
+      document.getElementById("unseen").addEventListener("click", () => {
+        document.getElementById("password").type = "password";
+        document.getElementById("seen").style.display = "block";
+        document.getElementById("unseen").style.display = "none";
+      });
+    </script>
+  </body>
+</html>
