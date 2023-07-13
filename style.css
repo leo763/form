@@ -1,6 +1,4 @@
-body{
-    background-color: #f2f2f2;
-}
+
 
   #div, #div1 {
     display: none;
@@ -27,6 +25,7 @@ body{
       position: relative;
       background-color: #ffffff;
       border-radius: 5px;
+      box-shadow: 0 0 45px rgba(0, 0, 0, 0.2);
 
   }
 
