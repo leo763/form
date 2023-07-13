@@ -81,6 +81,14 @@ password.addEventListener("keyup", () => {
     length.style.color = "red";
     document.getElementById("slength").innerHTML = "&#10006";
   }
+
+  if (password.value == cpassword.value) {
+    same.style.color = "green";
+    document.getElementById("cp").innerHTML = "&#10004";
+  } else {
+    same.style.color = "red";
+    document.getElementById("cp").innerHTML = "&#10006";
+  }
 });
 
 document.getElementById("seen").addEventListener("click", ()=>{
