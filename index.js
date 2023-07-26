@@ -8,7 +8,6 @@ var bl = document.getElementById("bl");
 var length = document.getElementById("length");
 var same = document.getElementById("same");
 
-
 password.addEventListener("focus", () => {
   div.style.display = "block";
   number.style.color = "red";
